@@ -33,8 +33,9 @@ namespace Biblioteca.Controllers
                 emprestimoService.Atualizar(viewModel.Emprestimo);
             }
             return RedirectToAction("Listagem");
-        }
 
+        }
+        
         public IActionResult Listagem(string tipoFiltro, string filtro)
         {
             FiltrosEmprestimos objFiltro = null;
