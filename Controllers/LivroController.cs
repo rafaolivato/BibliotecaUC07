@@ -12,9 +12,10 @@ namespace Biblioteca.Controllers
         }
 
         [HttpPost]
-        public IActionResult Cadastro(Livro l)
-        {
-            LivroService livroService = new LivroService();
+        public IActionResult Cadastro(Livro l){
+      
+        
+                LivroService livroService = new LivroService();
 
             if(l.Id == 0)
             {
@@ -51,3 +52,4 @@ namespace Biblioteca.Controllers
         }
     }
 }
+
