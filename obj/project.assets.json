@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {
+    ".NETCoreApp,Version=v3.0": {
       "Microsoft.CSharp/4.6.0": {
         "type": "package",
         "compile": {
@@ -839,34 +839,35 @@
     }
   },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": [
+    ".NETCoreApp,Version=v3.0": [
       "Microsoft.EntityFrameworkCore.Design >= 3.0.0",
       "Pomelo.EntityFrameworkCore.MySql >= 3.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\rafael\\.nuget\\packages\\": {}
+    "/home/rafael/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rafael\\OneDrive\\Área de Trabalho\\Projeto_UC07\\Biblioteca\\Biblioteca\\Biblioteca.csproj",
+      "projectUniqueName": "/home/rafael/Área de trabalho/Projeto_UC07/BibliotecaUC07/Biblioteca.csproj",
       "projectName": "Biblioteca",
-      "projectPath": "C:\\Users\\rafael\\OneDrive\\Área de Trabalho\\Projeto_UC07\\Biblioteca\\Biblioteca\\Biblioteca.csproj",
-      "packagesPath": "C:\\Users\\rafael\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rafael\\OneDrive\\Área de Trabalho\\Projeto_UC07\\Biblioteca\\Biblioteca\\obj\\",
+      "projectPath": "/home/rafael/Área de trabalho/Projeto_UC07/BibliotecaUC07/Biblioteca.csproj",
+      "packagesPath": "/home/rafael/.nuget/packages/",
+      "outputPath": "/home/rafael/Área de trabalho/Projeto_UC07/BibliotecaUC07/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\rafael\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/rafael/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "netcoreapp3.1"
+        "netcoreapp3.0"
       ],
       "sources": {
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "netcoreapp3.1": {
+        "netcoreapp3.0": {
+          "targetAlias": "netcoreapp3.0",
           "projectReferences": {}
         }
       },
@@ -877,7 +878,8 @@
       }
     },
     "frameworks": {
-      "netcoreapp3.1": {
+      "netcoreapp3.0": {
+        "targetAlias": "netcoreapp3.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -900,6 +902,20 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.0.1, 3.0.1]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.linux-x64",
+            "version": "[3.0.3, 3.0.3]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[3.0.0, 3.0.0]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -908,7 +924,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.414\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.102/RuntimeIdentifierGraph.json"
       }
     }
   }
