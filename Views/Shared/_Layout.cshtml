@@ -35,14 +35,13 @@
                             </div>
                         </li>
                         
-                        <li class="nav-item">
-                            <a class="nav-link text-light left" href="/Usuarios/ListaDeUsuarios" id="menuUsuarios">Usuarios</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-light left" href="/Usuarios/RegistrarUsuario" id="menuUsuarios">Editar Usuário</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-light left" href="/Usuarios/Sair" id="menuUsuarios">Logout</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link text-light dropdown-toggle" data-toggle="dropdown" href="#" id="menuUsuario">Usuário</a>
+                            <div>
+                            <a class="dropdown-item" href="/Usuarios/ListaDeUsuarios" id="menuUsuarios">Listagem</a>                
+                            <a class="dropdown-item" href="/Usuarios/RegistrarUsuario" id="menuUsuarios">Cadastro</a>
+                            <a class="dropdown-item" href="/Usuarios/Sair" id="menuUsuarios">Logout</a>
+                            </div>
                         </li>
                     </ul>
                 </div>
