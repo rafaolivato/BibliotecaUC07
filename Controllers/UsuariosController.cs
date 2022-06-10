@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Http;
 
 namespace Biblioteca.Controllers
 {
-    public class UsuarioController : Controller
+    public class UsuariosController : Controller
     {
         public IActionResult ListaDeUsuarios()
         {
@@ -28,7 +28,7 @@ namespace Biblioteca.Controllers
             UsuarioService us = new UsuarioService();
             us.editarUsuario(userEditado);
 
-            return RedirectToAction("ListaDeUsuarios");
+            return RedirectToAction("ListaDeUsuarios","Usuarios");
         }
         public IActionResult RegistrarUsuarios()
         {
@@ -61,7 +61,7 @@ namespace Biblioteca.Controllers
         {
             if(decisao =="EXCLUIR")
             {
-                ViewData["Mensagem"] = "Exclusão do usuário" + new UsuarioService().Listar(id).Nome+"realizada com sucesso";
+                ViewData["Mensagem"] = "Exclusão do usuário " + new UsuarioService().Listar(id).Nome+" realizada com sucesso";
                 new UsuarioService().excluirUsuario(id);
                 return View("ListadeUsuarios", new UsuarioService().Listar());
 

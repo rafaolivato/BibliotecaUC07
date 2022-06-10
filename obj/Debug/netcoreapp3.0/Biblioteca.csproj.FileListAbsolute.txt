@@ -55,4 +55,4 @@
 /home/rafael/Área de trabalho/Projeto_UC07/BibliotecaUC07/obj/Debug/netcoreapp3.0/Razor/Views/Usuarios/ExcluirUsuario.cshtml.g.cs
 /home/rafael/Área de trabalho/Projeto_UC07/BibliotecaUC07/obj/Debug/netcoreapp3.0/Razor/Views/Usuarios/ListaDeUsuarios.cshtml.g.cs
 /home/rafael/Área de trabalho/Projeto_UC07/BibliotecaUC07/obj/Debug/netcoreapp3.0/Razor/Views/Usuarios/NeedAdmin.cshtml.g.cs
-/home/rafael/Área de trabalho/Projeto_UC07/BibliotecaUC07/obj/Debug/netcoreapp3.0/Razor/Views/Usuarios/RegistrarUsuario.cshtml.g.cs
+/home/rafael/Área de trabalho/Projeto_UC07/BibliotecaUC07/obj/Debug/netcoreapp3.0/Razor/Views/Usuarios/RegistrarUsuarios.cshtml.g.cs
